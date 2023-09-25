@@ -20,7 +20,9 @@ Everyday people who enjoy puzzles, platformers, and adventure games.
 Movement to the left and right, jumping, finding clues and solving puzzles.
 
 ### Controls
-WASD / Arrow Keys
+- WASD / Arrow Keys
+- Space bar
+- Left mouse button
 
 ### Task Distribution
 Jack Filipanits: Sound Design, Storywriter
