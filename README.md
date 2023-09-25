@@ -13,6 +13,10 @@ We chose this idea as platformers are often a lot of fun and can be as simple or
 
 The inspiration comes from games that fall into the puzzle, platformer, adventure genre such as: LostWinds, Rain World, Hollow Knight to name a few.
 
+### Game World
+The world where this game will be set in is one without many details. The visuals will be black and white, whereas the interactable objects will be in a bright color so that it can help the player identify what they need to do next.
+
+
 ### Who are we targeting?
 Everyday people who enjoy puzzles, platformers, and adventure games.
 
