@@ -1,7 +1,7 @@
 # CMS395-Fall2023
 
 ## Team Members of MacDaddyDrSista:
-- Jack Filipanits: Storywrite and Sound Design
+- Jack Filipanits: Storywriter and Sound Design
 - Karam Hack: Team Lead, Designer
 - Romina Rodriguez-Sandoval: Programmer
 
