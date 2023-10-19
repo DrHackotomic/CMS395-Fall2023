@@ -1658,6 +1658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpAmount: 10
+  isGrounded: 0
 --- !u!58 &1718594309
 CircleCollider2D:
   m_ObjectHideFlags: 0
