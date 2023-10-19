@@ -9,15 +9,17 @@ public class JumpAndFallController : MonoBehaviour
     public float jumpAmount = 10;
     //private bool isGrounded;
     private Rigidbody2D rb;
+    public bool isGrounded;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        isGrounded = true;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
         }
@@ -37,6 +39,7 @@ public class JumpAndFallController : MonoBehaviour
         //    rb.velocity += Vector2.up * Physics2D.gravity.y * (fallGravityMultiplier - 1) * Time.deltaTime;
         //}
     }
+
 }
 
 

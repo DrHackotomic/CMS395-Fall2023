@@ -10,6 +10,11 @@ public class interactables : MonoBehaviour
         {
             // open chest, gain item and open door
             Debug.Log("chest opened");
-        } 
+        }
+
+        if (collision.gameObject.CompareTag("door"))
+        {
+            Debug.Log("door opened");
+        }
     }
 }
