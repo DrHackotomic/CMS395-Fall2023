@@ -293,8 +293,6 @@ GameObject:
   - component: {fileID: 98100022}
   - component: {fileID: 98100021}
   - component: {fileID: 98100020}
-  - component: {fileID: 98100019}
-  - component: {fileID: 98100018}
   - component: {fileID: 98100017}
   - component: {fileID: 98100016}
   - component: {fileID: 98100015}
@@ -371,33 +369,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &98100018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98100014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6ab5257671d4441fa2211d91530802d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 6
---- !u!114 &98100019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98100014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18e7c0f9c0f774a6bb25d6f58756d2e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpAmount: 10
-  isGrounded: 0
 --- !u!114 &98100020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,7 +381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6ab5257671d4441fa2211d91530802d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  speed: 5
+  jump: 400
+  rb: {fileID: 98100021}
+  isJumping: 0
 --- !u!50 &98100021
 Rigidbody2D:
   serializedVersion: 4
