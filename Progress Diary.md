@@ -7,6 +7,11 @@ Created diary as per Professor recommendation.
 Romina: 
   - Created Google slides for Progress Update #2 presentation
   - Level templates set up in Unity
-  - Pushed all current work to GitHub repository 
-So far I have the basic scripts for the health system, the movement + jumping of the character, and doors that go to each level. I also created the levels, and one at the beginning for the title screen.
+  - Added doors and all levels to build
+  - Refined health system using tutorials:
+    - https://www.youtube.com/watch?v=uqGkNTFzYXM&ab_channel=NightRunStudio
+    - https://www.youtube.com/watch?v=_1Oou4459Us&ab_channel=NightRunStudio
+  - Pushed all current work to GitHub repository
+    
+So far I have the basic scripts for the health system, the movement + jumping of the character, and doors that go to each level. I also created the levels, and one at the beginning for the title screen. I did have an incident where my original file was entirely corrupted, but I managed to save everything by creating a duplicate file.
 
