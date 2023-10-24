@@ -3,6 +3,7 @@
 
 ### October 24th
 Created diary as per Professor recommendation.
+
 Romina: 
   - Created Google slides for Progress Update #2 presentation
   - Level templates set up in Unity
