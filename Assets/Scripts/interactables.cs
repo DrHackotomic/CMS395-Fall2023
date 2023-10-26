@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class interactables : MonoBehaviour
 {
+
     private void onCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("chest"))

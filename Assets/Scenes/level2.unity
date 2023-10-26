@@ -1629,6 +1629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextSceneName: level3
+  healthSystem: {fileID: 1425062837}
 --- !u!212 &2121322085
 SpriteRenderer:
   m_ObjectHideFlags: 0

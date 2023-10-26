@@ -1,18 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class chest : MonoBehaviour
+public class Chest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //private Animator anim;
+    private bool isOpen;
+
+    private void Start()
     {
-        
+        //anim.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void onTriggerEnter2D (Collision2D collision)
     {
-        
+        if(collision.gameObject.CompareTag("player") && !isOpen)
+        {
+            OpenChest();
+        }
     }
+
+    void OpenChest()
+    {
+        //anim.SetTrigger("Open");
+        isOpen = true;
+        Debug.Log("Chest Opened!");
+    }
+
+
 }

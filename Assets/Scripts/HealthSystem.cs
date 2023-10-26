@@ -13,7 +13,7 @@ public class HealthSystem : MonoBehaviour
 
     private void Start()
     {
-        currentHealth = maxHealth;
+        LoadHealth();
     }
 
     public void TakeDamage(int amount)
@@ -24,6 +24,19 @@ public class HealthSystem : MonoBehaviour
         {
             playerSr.enabled = false;
             playerMovement.enabled = false;
+        }
+    }
+
+    public void SaveHealth()
+    {
+        PlayerPrefs.SetInt("PlayerHealth", currentHealth);
+    }
+
+    public void LoadHealth()
+    {
+        if (PlayerPrefs.HasKey("PlayerHealth"))
+        {
+            currentHealth = PlayerPrefs.GetInt("PlayerHealth");
         }
     }
 
