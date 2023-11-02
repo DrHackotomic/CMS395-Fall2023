@@ -15,3 +15,9 @@ Romina:
     
 So far I have the basic scripts for the health system, the movement + jumping of the character, and doors that go to each level. I also created the levels, and one at the beginning for the title screen. I did have an incident where my original file was entirely corrupted, but I managed to save everything by creating a duplicate file.
 
+### November 2nd
+Romina:
+- Fixed chest mechanics
+  - Able to implement chest animation
+- Implemented Karam's designs, need to make animations
+- Health/Damage system function as well as the display
