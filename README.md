@@ -17,7 +17,7 @@ The inspiration comes from games that fall into the puzzle, platformer, adventur
 
 
 ### Game World
-The world where this game will be set in is one without many details. The visuals will be darker muted colors, but in this prototype, the world is black and white, whereas the interactable objects will be in a bright color so that it can help the player identify what they need to do next.
+- to edit
 
 ![image](https://github.com/DrHackotomic/CMS395-Fall2023/assets/123589111/04dbff85-7835-49ae-a1d0-be70ff218642)
 
