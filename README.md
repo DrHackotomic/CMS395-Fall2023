@@ -13,14 +13,13 @@ We chose this idea as platformers are often a lot of fun and can be as simple or
 
 The inspiration comes from games that fall into the puzzle, platformer, adventure genre such as: LostWinds, Rain World, Hollow Knight to name a few.
 
-![image](https://github.com/DrHackotomic/CMS395-Fall2023/assets/123589111/27f0d938-6a69-4988-8670-a14290b08cba)
+insert title art here
 
 
 ### Game World
 - to edit
 
-![image](https://github.com/DrHackotomic/CMS395-Fall2023/assets/123589111/04dbff85-7835-49ae-a1d0-be70ff218642)
-
+insert level image here 
 
 
 ### Who are we targeting?
@@ -32,7 +31,6 @@ Movement to the left and right, jumping, finding clues and solving puzzles.
 ### Controls
 - WASD / Arrow Keys
 - Space bar
-- Left mouse button
 
 ### Task Distribution
 Jack Filipanits: Sound Design, Storywriter
