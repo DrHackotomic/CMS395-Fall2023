@@ -17,7 +17,7 @@ insert title art here
 
 
 ### Game World
-- to edit
+Our game world is very simple. Basic, soft colors for backgrounds and textures, and items that can be interacted with have brighter colors so that the player can figure out that they need to interact with these objects to proceed.
 
 insert level image here 
 
