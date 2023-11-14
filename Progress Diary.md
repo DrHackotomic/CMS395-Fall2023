@@ -25,3 +25,4 @@ Romina:
 ### November 14th
 Romina:
 - Edited Readme.md to be able to insert updated information about the game
+- Created Final Report document
