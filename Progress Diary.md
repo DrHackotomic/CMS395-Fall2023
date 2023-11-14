@@ -21,3 +21,7 @@ Romina:
   - Able to implement chest animation
 - Implemented Karam's designs, need to make animations
 - Health/Damage system function as well as the display
+
+### November 14th
+Romina:
+- Edited Readme.md to be able to insert updated information about the game
