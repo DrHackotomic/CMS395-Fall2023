@@ -7,6 +7,9 @@ public class Chest : MonoBehaviour
 {
     //private Animator anim;
     private bool isOpen;
+    private AudioSource audioSource;
+    public AudioClip boop;
+    public float volume = 0.25f;
 
     private void Start()
     {
@@ -18,6 +21,7 @@ public class Chest : MonoBehaviour
         if(collision.gameObject.CompareTag("player") && !isOpen)
         {
             OpenChest();
+            GetComponent<AudioSource>().PlayOneShot(boop, volume);
         }
     }
 
@@ -26,6 +30,7 @@ public class Chest : MonoBehaviour
         //anim.SetTrigger("Open");
         isOpen = true;
         Debug.Log("Chest Opened!");
+        
     }
 
 

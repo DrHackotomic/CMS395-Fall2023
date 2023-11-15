@@ -6,6 +6,9 @@ public class EnemyDamage : MonoBehaviour
 {
     public HealthSystem playerHealth;
     public int damage = 1;
+    private AudioSource audioSource;
+    public AudioClip boop;
+    public float volume = 0.25f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +27,7 @@ public class EnemyDamage : MonoBehaviour
         if(collision.gameObject.tag == "player")
         {
             playerHealth.TakeDamage(damage);
+            GetComponent<AudioSource>().PlayOneShot(boop, volume);
         }
     }
 }
