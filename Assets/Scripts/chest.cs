@@ -5,23 +5,36 @@ using System;
 
 public class Chest : MonoBehaviour
 {
+
+    public GameObject chestClose, chestOpen;
     //private Animator anim;
     private bool isOpen;
-    private AudioSource audioSource;
-    public AudioClip boop;
-    public float volume = 0.25f;
+    private bool playerInZone;
 
     private void Start()
     {
         //anim.GetComponent<Animator>();
+        playerInZone = false;
+        chestClose.SetActive(true);
+        chestOpen.SetActive(false);
     }
 
-    void onTriggerEnter2D (Collision2D collision)
+    private void Update()
     {
-        if(collision.gameObject.CompareTag("player") && !isOpen)
+        if (playerInZone && Input.GetMouseButtonDown(0))
         {
             OpenChest();
-            GetComponent<AudioSource>().PlayOneShot(boop, volume);
+        }
+    }
+
+    void OnTriggerEnter2D (Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("player"))
+        {
+            OpenChest();
+            playerInZone = true;
+            chestClose.SetActive(false);
+            chestOpen.SetActive(true);
         }
     }
 
@@ -30,7 +43,6 @@ public class Chest : MonoBehaviour
         //anim.SetTrigger("Open");
         isOpen = true;
         Debug.Log("Chest Opened!");
-        
     }
 
 

@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 64067744}
   - component: {fileID: 64067743}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: player
   m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +246,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: 0f7a9761d8ea544489fc045347e86ecc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a2250e1b2e9584e34a401f03ac981c26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -271,8 +271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   maxHealth: 3
-  emptyHeart: {fileID: 21300000, guid: 8fb5f7bd52629418aba19d89b758d305, type: 3}
-  fullHeart: {fileID: 21300000, guid: ab969673ea08144cdad9d04d0670a6fb, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 6acadfcff23eb452dbb535be5024ac16, type: 3}
+  fullHeart: {fileID: 21300000, guid: 881e36761c30e436c99744ef3cec1de1, type: 3}
   hearts:
   - {fileID: 1982373890}
   - {fileID: 1427288497}
@@ -322,9 +322,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.09089468}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.3430001
 --- !u!4 &64067746
 Transform:
   m_ObjectHideFlags: 0
@@ -334,8 +334,8 @@ Transform:
   m_GameObject: {fileID: 64067738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.39, y: -3.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.1691, y: -3.6004, z: 0}
+  m_LocalScale: {x: 1.6904, y: 1.7824, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 242093215}
   - component: {fileID: 242093214}
   m_Layer: 0
-  m_Name: lava
+  m_Name: platform
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 501625599}
   - component: {fileID: 501625605}
   m_Layer: 0
-  m_Name: Triangle (1)
+  m_Name: enemy2
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1063,7 +1063,7 @@ GameObject:
   - component: {fileID: 600469686}
   - component: {fileID: 600469692}
   m_Layer: 0
-  m_Name: Triangle (4)
+  m_Name: enemy8
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fb5f7bd52629418aba19d89b758d305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6acadfcff23eb452dbb535be5024ac16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1427,7 +1427,7 @@ GameObject:
   - component: {fileID: 784660615}
   - component: {fileID: 784660621}
   m_Layer: 0
-  m_Name: Triangle (6)
+  m_Name: enemy4
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1716,7 +1716,7 @@ GameObject:
   - component: {fileID: 1058307621}
   - component: {fileID: 1058307627}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2002,7 +2002,7 @@ GameObject:
   - component: {fileID: 1197020689}
   - component: {fileID: 1197020688}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: enemy9
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 1401158988}
   - component: {fileID: 1401158987}
   m_Layer: 0
-  m_Name: Square (4)
+  m_Name: enemy10
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2440,7 +2440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fb5f7bd52629418aba19d89b758d305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6acadfcff23eb452dbb535be5024ac16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2629,7 +2629,7 @@ GameObject:
   - component: {fileID: 1573086697}
   - component: {fileID: 1573086696}
   m_Layer: 3
-  m_Name: Hexagon Pointed-Top
+  m_Name: gate
   m_TagString: door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2671,7 +2671,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8828125, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 0.8828125, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2735,8 +2735,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2135585597343286014, guid: 5aa8b770bc43046bc8d993d0d5b7f4a5, type: 3}
-  m_Color: {r: 0.03773582, g: 0.035065833, b: 0.035065833, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ef6aa4041aa554be4bb233e03a8801e0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2774,7 +2774,7 @@ GameObject:
   - component: {fileID: 1666640123}
   - component: {fileID: 1666640122}
   m_Layer: 0
-  m_Name: Square (5)
+  m_Name: enemy11
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3185,7 +3185,7 @@ GameObject:
   - component: {fileID: 1714466798}
   - component: {fileID: 1714466804}
   m_Layer: 0
-  m_Name: Triangle (5)
+  m_Name: enemy3
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3632,7 +3632,7 @@ GameObject:
   - component: {fileID: 1980075296}
   - component: {fileID: 1980075302}
   m_Layer: 0
-  m_Name: Triangle (3)
+  m_Name: enemy7
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3962,7 +3962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fb5f7bd52629418aba19d89b758d305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6acadfcff23eb452dbb535be5024ac16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3996,7 +3996,7 @@ GameObject:
   - component: {fileID: 2043127834}
   - component: {fileID: 2043127840}
   m_Layer: 0
-  m_Name: Triangle (7)
+  m_Name: enemy5
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4285,7 +4285,7 @@ GameObject:
   - component: {fileID: 2087348771}
   - component: {fileID: 2087348777}
   m_Layer: 0
-  m_Name: Triangle (2)
+  m_Name: enemy6
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
