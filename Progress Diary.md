@@ -26,3 +26,9 @@ Romina:
 Romina:
 - Edited Readme.md to be able to insert updated information about the game
 - Created Final Report document
+
+### November 16th
+
+Romina:
+- Fixed "unmerged" files
+- Implemented a delay when transitioning from the intro to level 1. This is done so that the player can view the story snippet, the title and the controls before proceeding.
