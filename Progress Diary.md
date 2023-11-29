@@ -32,3 +32,10 @@ Romina:
 Romina:
 - Fixed "unmerged" files
 - Implemented a delay when transitioning from the intro to level 1. This is done so that the player can view the story snippet, the title and the controls before proceeding.
+
+### November 29th 
+
+Romina:
+- Implemented chest + door mechanic.
+- Finalized level 2
+- Added 3 menu buttons to each level
