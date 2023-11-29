@@ -10,6 +10,7 @@ public class Chest : MonoBehaviour
     //private Animator anim;
     private bool isOpen;
     private bool playerInZone;
+    public static bool chestCollided = false;
 
     private void Start()
     {
@@ -35,6 +36,7 @@ public class Chest : MonoBehaviour
             playerInZone = true;
             chestClose.SetActive(false);
             chestOpen.SetActive(true);
+            chestCollided = true;
         }
     }
 
