@@ -42,6 +42,17 @@ Romina Rodriguez-Sandoval: Programmer, Team Lead
 
 Our individual contributions are as follows:
 1. Karam
+    - Coding: Added a Skip intro button
+    - Re-designed the stages with tiles
+    - Imported Tiles
+    - Created Sprites
+      - Avatar (Half body, no body and with full body)
+      - Spikes
+      - Gate
+      - Chest (Closed and Opened)
+    - Assisted/Guidance for Coding
+    - Added Instructions
+    - Intro Screen
 2. Jack
     - Coding: Modified scripts to support sound
     - Introduced a script for the game music as well
