@@ -37,3 +37,26 @@ Jack Filipanits: Sound Design, Storywriter
 Karam Hack: Designer
 
 Romina Rodriguez-Sandoval: Programmer, Team Lead
+
+### Individual Contribution
+
+Our individual contributions are as follows:
+1. Karam
+2. Jack
+    - Coding: Modified scripts to support sound
+    - introduced a script for the game music as well
+    - Redesigned the template levels into unique levels with obstacles and dangers
+    - Developed the game music
+3. Romina: 
+    - Created template levels
+    - Coding: Scripts
+      - Movement: movement, jumping, collisions
+      - Door mechanics
+      - Chest mechanic + animation
+      - Linked both door and chest. Door cannot be opened until chest is collided with
+      - Health system: Display and player damage
+      - Intro mechanics: 15 sec delay so player can view title and controls.
+      - Temporary boundary to deactivate once delay is finished
+    - Implemented menu (3 buttons)
+    - Level 2 puzzle
+
