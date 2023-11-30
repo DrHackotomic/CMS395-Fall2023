@@ -2,8 +2,8 @@
 
 ## Team Members of MacDaddyDrSista:
 - Jack Filipanits: Storywriter and Sound Design
-- Karam Hack: Team Lead, Designer
-- Romina Rodriguez-Sandoval: Programmer
+- Karam Hack: Designer
+- Romina Rodriguez-Sandoval: Team Lead, Programmer
 
 ## Our game
 ### Lost in Limbo
