@@ -13,13 +13,12 @@ We chose this idea as platformers are often a lot of fun and can be as simple or
 
 The inspiration comes from games that fall into the puzzle, platformer, adventure genre such as: LostWinds, Rain World, Hollow Knight to name a few.
 
-insert title art here
-
+<img width="834" alt="title art" src="https://github.com/DrHackotomic/CMS395-Fall2023/assets/123589111/a6433851-1c32-41fa-a5d8-300dad73ff85">
 
 ### Game World
 Our game world is very simple. Basic, soft colors for backgrounds and textures, and items that can be interacted with have brighter colors so that the player can figure out that they need to interact with these objects to proceed.
 
-<img width="834" alt="Screenshot 2023-11-30 at 8 21 56 AM" src="https://github.com/DrHackotomic/CMS395-Fall2023/assets/123589111/34a629e3-c8fa-4d55-88ed-4bf23ffdbfd5">
+<img width="834" alt="level 2 screenshot" src="https://github.com/DrHackotomic/CMS395-Fall2023/assets/123589111/34a629e3-c8fa-4d55-88ed-4bf23ffdbfd5">
 
 ### Who are we targeting?
 Everyday people who enjoy puzzles, platformers, and adventure games.
