@@ -71,3 +71,7 @@ Our individual contributions are as follows:
    - Implemented menu (3 buttons)
    - Level 2 puzzle
 
+### Demo Gameplay:
+
+https://github.com/DrHackotomic/CMS395-Fall2023/assets/123589111/6d9b684e-c401-4823-8575-0f629939a8b1
+
