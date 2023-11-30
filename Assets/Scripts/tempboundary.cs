@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class tempboundary : MonoBehaviour
 {
-    public float delayInSeconds = 15f;
+    public float delayInSeconds = 3f;
 
     private void Start()
     {

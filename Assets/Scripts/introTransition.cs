@@ -7,9 +7,8 @@ using UnityEngine.SceneManagement;
 public class introTransition : MonoBehaviour
 {
 
-   
     public string nextLevelName = "level1";
-    public float delayInSeconds = 15f;
+    public float delayInSeconds = 3f;
 
     private bool canLoadNextLevel = false;
 

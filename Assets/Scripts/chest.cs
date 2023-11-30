@@ -1,20 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 public class Chest : MonoBehaviour
 {
-
     public GameObject chestClose, chestOpen;
-    //private Animator anim;
-    private bool isOpen;
     private bool playerInZone;
-    public static bool chestCollided = false;
 
     private void Start()
     {
-        //anim.GetComponent<Animator>();
         playerInZone = false;
         chestClose.SetActive(true);
         chestOpen.SetActive(false);
@@ -28,24 +20,23 @@ public class Chest : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D (Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("player"))
+        if (collision.gameObject.CompareTag("player") && !GameManager.instance.IsChestOpen)
         {
+            // Check if the chest is not already open
             OpenChest();
             playerInZone = true;
             chestClose.SetActive(false);
             chestOpen.SetActive(true);
-            chestCollided = true;
+            GameManager.instance.IsChestOpen = true; // Update the chest state in GameManager
         }
     }
 
     void OpenChest()
     {
-        //anim.SetTrigger("Open");
-        isOpen = true;
+        // Your logic to open the chest
+        // anim.SetTrigger("Open");
         Debug.Log("Chest Opened!");
     }
-
-
 }

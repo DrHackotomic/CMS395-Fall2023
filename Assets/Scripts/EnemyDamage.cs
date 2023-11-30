@@ -24,10 +24,19 @@ public class EnemyDamage : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "player")
         {
-            playerHealth.TakeDamage(damage);
-            GetComponent<AudioSource>().PlayOneShot(boop, volume);
+            // Null check for playerHealth
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+                // Use the cached audioSource variable
+                audioSource.PlayOneShot(boop, volume);
+            }
+            else
+            {
+                Debug.LogError("Player health reference is null. Make sure to assign it in the Inspector.");
+            }
         }
     }
 }

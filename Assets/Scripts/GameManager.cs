@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public AudioClip boop;
     public float volume = 0.25f;
 
+    private bool isChestOpen = false; // Added boolean to track chest state
+
     float timer = 0;
 
     private void Awake()
@@ -45,5 +47,18 @@ public class GameManager : MonoBehaviour
             audioSource.PlayOneShot(boop, volume);
             yield return new WaitForSeconds(16f);
         }
+    }
+
+    // Getter and setter for IsChestOpen
+    public bool IsChestOpen
+    {
+        get { return isChestOpen; }
+        set { isChestOpen = value; }
+    }
+
+    // Method to reset the chest state after each level transition
+    public void ResetChestState()
+    {
+        IsChestOpen = false;
     }
 }
