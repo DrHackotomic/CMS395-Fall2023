@@ -34,6 +34,6 @@ Movement to the left and right, jumping, finding clues and solving puzzles.
 ### Task Distribution
 Jack Filipanits: Sound Design, Storywriter
 
-Karam Hack: Designer, Team Lead
+Karam Hack: Designer
 
-Romina Rodriguez-Sandoval: Programmer
+Romina Rodriguez-Sandoval: Programmer, Team Lead
