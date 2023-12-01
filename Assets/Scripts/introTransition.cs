@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class introTransition : MonoBehaviour
 {
-
    
     public string nextLevelName = "level1";
     public float delayInSeconds = 15f;
@@ -21,13 +20,6 @@ public class introTransition : MonoBehaviour
         Debug.Log("delay started");
     }
 
-    public void SkipIntro(){
-        
-        // This should put the timer at 0
-        delayInSeconds = 0f;
-        Invoke("EnableLoadNextLevel", delayInSeconds);
-        Debug.Log("Intro Skipped");
-    }
 
     private void EnableLoadNextLevel()
     {
