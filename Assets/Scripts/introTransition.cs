@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 public class introTransition : MonoBehaviour
 {
 
+   
     public string nextLevelName = "level1";
-    public float delayInSeconds = 3f;
+    public float delayInSeconds = 15f;
 
     private bool canLoadNextLevel = false;
 
@@ -18,6 +19,14 @@ public class introTransition : MonoBehaviour
         // Start the timer to enable the trigger after the specified delay
         Invoke("EnableLoadNextLevel", delayInSeconds);
         Debug.Log("delay started");
+    }
+
+    public void SkipIntro(){
+        
+        // This should put the timer at 0
+        delayInSeconds = 0f;
+        Invoke("EnableLoadNextLevel", delayInSeconds);
+        Debug.Log("Intro Skipped");
     }
 
     private void EnableLoadNextLevel()
