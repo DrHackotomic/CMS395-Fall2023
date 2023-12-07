@@ -59,4 +59,9 @@ Our individual contributions are as follows:
       - Temporary boundary to deactivate once delay is finished
     - Implemented menu (3 buttons)
     - Level 2 puzzle
+  
+### Reflections
+
+We thoroughly enjoyed working on this project, as it was our first complete game developed in Unity. We had a big idea at the beginning, but we had to downgrade many things due to our lack of expertise and time constraints. While we did downgrade, we made sure that we could still get our main plot and our main goal in, e.g. still implementing the puzzles. Something we would’ve liked to add if we had more time, would be a start screen and a main menu, where the player could select certain levels if they wanted to replay it, but only if they have completed them before. Romina implemented the three buttons so as to make it easier to restart the game during presentation time.We would’ve also liked to add our original ideas of “enemies”, such as quicksand and lava pillars.
+
 
