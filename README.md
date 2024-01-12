@@ -13,8 +13,6 @@ We chose this idea as platformers are often a lot of fun and can be as simple or
 
 The inspiration comes from games that fall into the puzzle, platformer, adventure genre such as: LostWinds, Rain World, Hollow Knight to name a few.
 
-insert title art here
-
 
 ### Game World
 Our game world is very simple. Basic, soft colors for backgrounds and textures, and items that can be interacted with have brighter colors so that the player can figure out that they need to interact with these objects to proceed.
