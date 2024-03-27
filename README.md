@@ -2,7 +2,7 @@
 
 ## Team Members of MacDaddyDrSista:
 - Jack Filipanits: Storywriter and Sound Design
-- Karam Hack: Designer
+- Karam Hack: Designer, Programmer
 - Romina Rodriguez-Sandoval: Team Lead, Programmer
 
 ## Our game
